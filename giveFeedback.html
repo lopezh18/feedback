@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Feedback Tool</title>
+</head>
+<body>
+  <header class="header">
+    <h2>Feedback</h2>
+    <a class="close-button" href="index.html">X</a>
+  </header>
+  <hr />
+  <form>
+    <div class="button-group">
+      <button class="feedback-button">Give feedback</button>
+      <button class="feedback-button">Request feedback</button>
+      <button class="feedback-button">Note to self</button>
+    </div>
+    <label class="to-input" for="feedback-recipient">Who&apos;s the feedback about?</label>
+    <select id="feedback-recipient" name="feedback-recipient">
+      <option>Person 1</option>
+      <option>Person 2</option>
+      <option>Person 3</option>
+      <option>Person 4</option>
+      <option>Person 5</option>
+    </select>
+    <div class="button-group type-group">
+      <button class="type-button">Public</button>
+      <button class="type-button"><img alt="lock icon" class="lock-icon" src="./lock.svg"/>Private</button>
+      <button class="type-button"><img alt="lock icon" class="lock-icon" src="./lock.svg"/>Private + manager</button>
+      <button class="type-button"><img alt="lock icon" class="lock-icon" src="./lock.svg"/>Manager only</button>
+    </div>
+    <label for="feedback-details">What&apos;s your feedback?</label>
+    <textarea id="feedback-details"></textarea>
+    <label for="feedback-values">Which values did they embody?</label>
+    <input class="values" type="button" value="CLEAR EYES">
+    <input class="values" type="button" value="SHIP, SHIPMATE, SELF">
+    <input class="values" type="button" value="CHOP WOOD, CARRY WATER">
+    <input class="values" type="button" value="WHAT'S NEXT?">
+    <div class="submit-container">
+      <button class="submit-button" type="submit">Share Feedback</button>
+    </div>
+  </form>
+</body>
+</html>

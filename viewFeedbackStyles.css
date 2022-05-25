@@ -1,0 +1,206 @@
+html {
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  min-height: 100%;
+}
+
+header {
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.job-title {
+  color: rgb(116, 115, 115);
+  margin-top: 5px;
+}
+
+nav a {
+  color: gray;
+  text-decoration: none;
+  margin-right: 3px;
+}
+
+nav a:last-child {
+  margin-right: 0;
+}
+
+nav a:visited {
+  color: gray;
+}
+
+nav a:hover {
+  color: rgb(163, 163, 163);
+}
+
+.feedback-summary {
+  border: 1px solid rgb(116, 115, 115);
+  border-radius: 3px;
+  margin: 10px 0;
+  padding: 12px;
+}
+
+.summary-header,
+.summary {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.summary {
+  margin-top: 10px;
+}
+
+.feedback-type {
+  background-color: rgb(232, 232, 232);
+  border: none;
+  border-radius: 30px;
+  color: rgb(116, 115, 115);
+  padding: 10px;
+}
+
+.feedback-type:hover {
+  background-color: rgb(219, 218, 218);
+}
+
+.summary-header h2 {
+  font-size: 18px;
+  margin: 0;
+}
+.summary-header p {
+  color: rgb(116, 115, 115);
+  font-size: 12px;
+  margin: 0;
+}
+
+.emoji-div {
+  /* align-items: center; */
+  border: 1px solid rgb(185, 184, 184);
+  border-radius: 3px;
+  margin-right: 4px;
+  padding: 3px 4px;
+}
+
+.feedback-card {
+  border: 1px solid rgb(116, 115, 115);
+  border-radius: 3px;
+  padding: 12px 0;
+  position: relative;
+}
+
+.card-details {
+  padding: 0 12px;
+}
+
+.card-header {
+  display: inline-block;
+  font-size: 18px;
+  margin: 0px;
+}
+
+.card-word {
+  color: rgb(116, 115, 115);
+  font-size: 15px;
+  margin: 0px 10px; 
+}
+
+.values {
+  background-color: rgb(232, 232, 232);
+  border-radius: 5px;
+  color: rgb(116, 115, 115);
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 5px 0;
+  padding: 5px 10px;
+  width: fit-content;
+}
+
+.lock-icon {
+  height: 15px;
+  margin-right: 3px;
+}
+
+.feedback-info {
+  color: rgb(132, 132, 132);
+  display: flex;
+  font-size: 14px;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.feedback-info p {
+  font-size: 14px;
+  font-weight: 500;
+  color: gray;
+  margin: 0;
+}
+
+hr {
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+
+.reply-button,
+.add-emoji-button,
+.emoji-button {
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid rgb(185, 184, 184);
+  border-radius: 3px;
+  display: flex;
+  font-weight: 600;
+  margin-right: 0;
+  padding: 3px 4px;
+}
+
+.reply-button:hover,
+.add-emoji-button:hover {
+  background-color: rgb(234, 234, 234);
+}
+
+.reaction-container {
+  display: flex;
+}
+
+.emoji-button {
+  border: none;
+  background-color: rgb(234, 234, 234);
+  font-weight: normal;
+  margin-right: 6px;
+}
+
+.emoji-button:hover {
+  background-color: rgb(219, 218, 218);
+}
+
+.active {
+  background-color: rgb(213, 237, 253);
+  color: blue;
+}
+
+.active:hover {
+  background-color: rgb(181, 224, 249);
+}
+
+.card-footer {
+  /* margin-top: 10px; */
+  /* align-items: center; */
+  margin: 10px auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.happy-face-icon {
+  width: 20px;
+}
+
